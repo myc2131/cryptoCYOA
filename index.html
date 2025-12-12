@@ -8,8 +8,8 @@
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Crypto Dissertation 4.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Crypto Dissertation 4" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="b46d3f31-700c-4e24-88c3-1acbe4f1e437" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Crypto CYOA.</tw-noscript></noscript></tw-story>
+<tw-storydata name="Crypto CYOA" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="b46d3f31-700c-4e24-88c3-1acbe4f1e437" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
   background: #101;
   color: #eee;
   font-family: "Arial", sans-serif;
@@ -41,29 +41,51 @@ tw-link {
 }
 tw-link:hover {
   background: #666;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="350,50" size="100,100">#Crypto Literacy CYOA
-Starting balance: $ 5 in crypto.  
-Reputation point: 50 out of 100.  
-Goal: finish with money left and a higher point.  
+}
+
+tw-sidebar {
+  display: none;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="350,50" size="100,100">
+##Crypto Literacy CYOA
 This is a simulation for learning, not financial advice.
 
-## How to play and navigate
+### How to play and navigate
 • Read each scene in order.  
-• Pick one option in each scene.  
+• Pick one option in each scene.
+• Starting balance: $5 in crypto.  
+• Reputation point: 50 out of 100.
+• Goal: finish with money left and a higher reputation point. 
 • Your balance and reputation point appear at the top of every page.  
 • Your choice will change the numbers as shown.  
-• Choices unlock an explanation.  
+• Choices unlock an explanation.
+• Do not return to a previous scene.
+
+### Character Overview
+You
+• Owner of a small, cozy coffee pop-up shop
+
+Taylor
+• A supportive childhood friend knows nothing about crypto
+
+Noah
+• A good friend who recently got scammed in a crypto deal
+• Now more informed and cautious about the space
+
+Jamie
+• An old friend from university, recently reconnected
+• Currently a blockchain engineer
+
+Regular Customer
+• A frequent visitor who always orders a latte
+• Friendly but mysterious
+
 
 [[Begin Prologue-&gt;Prologue]]</tw-passagedata><tw-passagedata pid="2" name="Prologue" tags="" position="350,175" size="100,100">(set: $balance to 5)
 (set: $point to 50)
 &lt;div id=&quot;statusbar&quot;&gt;Balance: $balance | Reputation Point: $point&lt;/div&gt;
 
 ###Prologue
-
-<a href="https://ibb.co/Zp50hbX6"><img src="https://i.ibb.co/9k67qdg9/cyoa1.png" alt="cyoa1" border="0"></a>
-
-<a href="https://ibb.co/8D33sH2N"><img src="https://i.ibb.co/xSvvLNGX/cyoa2.png" alt="cyoa2" border="0"></a>
-  
+&lt;img src=&quot;https://i.ibb.co/xSvvLNGX/cyoa2.png&quot; border=&quot;0&quot;&gt;&lt;/a&gt;
 “Another crypto headline?” Taylor asks as you tamp the shot.
 
 “Ever since Noah got scammed, I am torn between backing away and digging in,” you say.
@@ -72,7 +94,7 @@ This is a simulation for learning, not financial advice.
 
 Your coffee pop up pays the bills, barely. You silence another alert and set the phone aside. “Maybe Bitcoin could be a real plan,” you say. “Not luck. Research.”
 
-“So what do you know about crypto as now” Taylor asks
+“So what do you know about crypto as now” Taylor asks.
 
 “Decentralization means no single boss,” you say. “Independent computers share one ledger and follow open rules to agree on truth.”
 
@@ -144,7 +166,7 @@ You guard fairness, legality, and trust in an open ecosystem.
 
 Scene 1
 
-You take your first step into this new world and your curiosity deepens. After a stretch of reading about cryptocurrency, you decide to message your good friend Noah.
+You take your first step into this new world and your curiosity deepens. After a stretch of reading about cryptocurrency, you decide to message your friend Noah.
 
 You flip open your laptop. Your phone buzzes. Noah, who got scammed once and then learned the hard lessons, now reads everything he can and moves with care.
 
@@ -491,7 +513,7 @@ Reputation +5. Balance remains the same.
 
 ---
 
-No legitimate support will ever ask for a seed phrase. Anyone with your seed phrase can drain every asset that phrase controls.
+No legitimate support will ever ask for a seed phrase. Anyone with your seed phrase can drain every asset that phrase controls. Scams may not explicitly say “seed phrase,” but request “private key,” “recovery words,” “export backup,” etc. However you have resisted.
 
 ---
 
@@ -514,7 +536,7 @@ Reputation -30. Balance becomes $0.
 
 ---
 
-Attackers can brute force missing words faster than you think, especially if they also trick you into revealing your public address.
+Attackers can brute force missing words faster than you think, especially if they also trick you into revealing your public address. Scams may not explicitly say “seed phrase,” but request “private key,” “recovery words,” “export backup,” etc.
 
 ---
 
@@ -537,7 +559,7 @@ Reputation -25. Balance becomes $0.
 
 ---
 
-Logos and deepfakes are easy to spoof. Seed phrases are the crown jewels. Never share.
+Logos and deepfakes are easy to spoof. Seed phrases are the crown jewels. Never share. Scams may not explicitly say “seed phrase,” but request “private key,” “recovery words,” “export backup,” etc.
 
 ---
 
@@ -585,7 +607,7 @@ Reputation -2. Balance +$5.
 
 Funds arrive. Convenience feels great, but address reuse lowers privacy and can reveal patterns about your spending.
 
-They use pseudonyms, so addresses do not show names, but transactions can often be traced through blockchain analysis and real-world links.
+They use pseudonyms, so addresses do not show names, but transactions can often be traced through blockchain analysis and real-world links. Wallets usually rotate addresses by default to help protect your privacy without extra effort.
 
 **(text-colour:orange)[Bitcoin]** is internet native money secured by math and shared verification. You control it with keys in your wallet. No bank is needed to send or receive.
 
@@ -610,11 +632,11 @@ Reputation +5. Balance +$5.
 
 ---
 
-Funds arrive. Reputation +5 for better privacy hygiene.
+Funds arrive. Reputation increases for better privacy hygiene.
 
-Using a fresh address is a common wallet feature. It makes it harder to link all your activity to one public identifier. Your keys still control every address in your wallet.
+Using a fresh address is a common wallet feature. It makes it harder to link all your activity to one public identifier. Your keys still control every address in your wallet. Wallets usually rotate addresses by default to help protect your privacy without extra effort.
 
-They use pseudonyms, so addresses do not show names, but transactions can often be traced through blockchain analysis and real-world links.
+They use pseudonyms, so addresses do not show names, but transactions can often be traced through blockchain analysis and real-world links. 
 
 **(text-colour:orange)[Bitcoin]** is internet native money secured by math and shared verification. You control it with keys in your wallet. No bank is needed to send or receive.
 
@@ -639,7 +661,7 @@ Reputation -5. Balance +$5.
 
 ---
 
-Funds appear inside the exchange account view, but they are not on chain yet. Reputation −5 for adding counterparty and platform risk. If the exchange freezes accounts or has downtime, access may be delayed.
+Funds appear inside the exchange account view, but they are not on chain yet. Reputation decreases for adding counterparty and platform risk. If the exchange freezes accounts or has downtime, access may be delayed.
 
 When a company holds your coins for you, they control the keys. Not your keys means not your coins.
 
@@ -720,7 +742,7 @@ Reputation +2. Balance -$3 = $1 is the transaction fee + $2 coffee bean
 
 ---
 
-Your payment confirms at a reasonable speed and cost. Reputation +2 for choosing the fee that fits your urgency. If lower payment is chosen, the payment may sit in the waiting area known as the **(text-colour:orange)[mempool]** until a miner includes it.
+Your payment confirms at a reasonable speed and cost. Reputation increases for choosing the fee that fits your urgency. If lower payment is chosen, the payment may sit in the waiting area known as the **(text-colour:orange)[mempool]** until a miner includes it.
 
 Miners compete to add blocks by performing proof of work. The fee you attach signals priority to miners.
 
@@ -745,7 +767,7 @@ Reputation -1. Balance -$5 = $3 is the transaction fee + $2 coffee bean
 
 ---
 
-Your payment confirms very quickly. You may have paid more than needed. Reputation −1 for cost inefficiency.
+Your payment confirms very quickly. You may have paid more than needed. Reputation decreases for cost inefficiency.
 
 Miners aim to maximize revenue from fees and the block subsidy. Very high fees often jump the line, but timing is still probabilistic.
 
@@ -848,7 +870,7 @@ Reputation +4. Balance remains the same.
 
 ---
 
-Better than random servers, but still introduces trust in Noah’s setup and uptime.
+Better than random servers, but still introduces trust in Noah’s setup and uptime. If Noah’s node is misconfigured or compromised, it might relay incorrect information.
 
 Running your own node is the gold standard for independent verification.
 
@@ -903,6 +925,8 @@ Reputation −10. Balance remains the same.
 
 You take the fastest path. Reputation decreases for higher risk. An unconfirmed transaction can be replaced or double spent. This time nothing bad happens, but your policy could encourage abuse.
 
+Many wallets let users replace an unconfirmed transaction with a higher-fee one, called Replace By Fee. This makes zero-conf payments easy to modify.
+
 Miners decide which transactions go into blocks. Until your transaction is in a block, it is only a candidate for inclusion.
 
 ---
@@ -925,7 +949,7 @@ Reputation +3. Balance remains the same.
 
 ---
 
-You choose a balanced policy. One confirmation means miners have included your payment in a block. Reversing it would require making a longer competing chain, which is unlikely for small amounts.
+You choose a balanced policy. One confirmation means miners have included your payment in a block. Reversing it would require making a longer competing chain, which is unlikely for small amounts. Each additional block makes rewriting history exponentially more expensive.
 
 This is often enough for everyday commerce. For larger payments, ask for more confirmations.
 
@@ -949,9 +973,9 @@ Reputation +1. Balance remains the same.
 
 ---
 
-You choose caution. Six confirmations are widely treated as strong settlement because an attacker would need a great deal of mining power and luck to overtake that many blocks.
+You choose caution. Six confirmations are widely treated as strong settlement because an attacker would need a great deal of mining power and luck to overtake that many blocks. Each additional block makes rewriting history exponentially more expensive.
 
-More confirmations mean more security, at the cost of time.
+Six confirmations is not a universal requirement. More confirmations mean more security, at the cost of time.
 
 ---
 
@@ -1063,7 +1087,7 @@ Reputation -5. Balance remains the same.
 
 ---
 
-You let Noah handle everything. Reputation −3 for outsourcing critical control. Noah sets up the contract, but you realize you do not fully understand how your funds are being managed.
+You let Noah handle everything. Reputation decreases for outsourcing critical control. Noah sets up the contract, but you realize you do not fully understand how your funds are being managed.
 
 You still take a moment to learn the basics. Ethereum uses **(text-colour:orange)[proof of stake]** where validators stake ETH and risk losing part of it if they submit a version of the ledger that others reject. 
 
@@ -1081,7 +1105,7 @@ Your coffee pop up smart contract keeps humming along, but not everyone shares y
 
 You sip your espresso. “Tell me more.”
 
-“A CBDC is national money in digital form,” he says. “It is issued and backed by the central bank. Bitcoin and Ethereum are different. They are decentralized and run by a peer to peer network of users, not by a government.”
+“A CBDC is national money in digital form,” he says. “It is issued and backed by the central bank. CBDCs may not use blockchain in all designs. Bitcoin and Ethereum are different. They are decentralized and run by a peer to peer network of users, not by a government.”
 
 “So a CBDC is official money online,” you say. “And crypto is independent money secured by the network.”
 
@@ -1089,7 +1113,7 @@ You sip your espresso. “Tell me more.”
 
 “And what about those algorithmic ones I heard about?” you ask.
 
-“One type is the **(text-colour:orange)[algorithmic stablecoin]**,” he says. “It uses smart contract rules instead of full collateral to keep the price steady. Sometimes that design works for a while, sometimes it breaks.”
+“One type is the **(text-colour:orange)[algorithmic stablecoin]**,” he says. “It uses smart contract rules instead of full collateral to keep the price steady. Sometimes that design works for a while, sometimes it breaks. Some major algorithmic stablecoin models have collapsed.”
 
 You nod. “So why build a CBDC in the first place?”
 
@@ -1131,7 +1155,7 @@ You register and receive 5 digital units in your new CBDC wallet. Payments are i
 
 Reputation increases for curiosity and research mindset.
 
-Still, you notice that every transaction is logged by the central authority. Privacy is limited, since CBDC systems often let regulators monitor transfers to prevent fraud or tax evasion.
+Still, you notice that every transaction is logged by the central authority. Privacy is limited, since CBDC systems often let regulators monitor transfers to prevent fraud or tax evasion. Some CBDC pilots include privacy features, but full anonymity like cash is rare.
 
 You realize this is money that behaves like cash but reports like a bank account.
 CBDCs may boost efficiency but reduce personal anonymity compared to peer-to-peer cryptocurrencies.
@@ -1160,7 +1184,7 @@ You skip the pilot. Reputation increases for standing by your principles.
 
 You prefer decentralized systems where users, not governments, verify transactions through peer-to-peer networks.
 
-Still, you understand why countries explore CBDCs—to speed up payments, include citizens without bank access, and keep the national currency competitive in the digital age.
+Still, you understand why countries explore CBDCs—to speed up payments, include citizens without bank access, and keep the national currency competitive in the digital age. Some CBDC pilots include privacy features, but full anonymity like cash is rare.
 
 You write a blog post comparing open blockchain systems and state-backed CBDCs. It gets a few upvotes on the campus forum.
 
@@ -1189,7 +1213,7 @@ You install the CBDC wallet but also keep your crypto. Reputation +1 for pragmat
 
 The CBDC works for coffee runs and coffee supply payments—fast and stable. But your Ethereum wallet feels freer, with no central oversight.
 
-You note that CBDCs are digital money backed by trust in the central bank, while crypto relies on peer-to-peer verification and code. Both have trade-offs: control versus autonomy, stability versus privacy.
+You note that CBDCs are digital money backed by trust in the central bank, while crypto relies on peer-to-peer verification and code. Both have trade-offs: control versus autonomy, stability versus privacy. Some CBDC pilots include privacy features, but full anonymity like cash is rare.
 
 You end the day thinking, “Maybe the future isn’t one or the other—it’s both.”
 
@@ -1250,6 +1274,8 @@ You post a warning thread explaining how scammers exploit hype whenever new tech
 
 Your post gains traction, earning praise from the public and even a shout-out from your coffee pop up customers for “responsible digital citizenship.”
 
+Many presale scams use fake government domains, slightly misspelled URLs, and clone websites of official agencies. Platforms like YouTube and Instagram regularly have paid ads featuring fake AI endorsements.
+
 There are also other famous scams like **(text-colour:orange)[rug pulls]**, where project creators suddenly withdraw all the money or liquidity locked in a project, causing the token’s price to crash and leaving investors unable to sell.
 
 **(text-colour:orange)[Ponzi schemes]**, which promise high, steady returns but actually use new investors’ funds to pay earlier ones until the system collapses when no new money comes in.
@@ -1275,11 +1301,13 @@ Reputation -10. Balance -$1.
 
 ---
 
-You send 1 dollar. The money leaves instantly—and the page vanishes moments later. Reputation −10 for falling into a classic “verify by paying” trap.
+You send 1 dollar. The money leaves instantly—and the page vanishes moments later. Reputation decreases for falling into a classic “verify by paying” trap.
 
 Crypto scams often play on urgency and authority, combining fake endorsements and official-looking messages.
 
 You learn that in crypto and CBDC spaces alike, trust must come from verifiable sources, not social media buzz.
+
+Many presale scams use fake government domains, slightly misspelled URLs, and clone websites of official agencies. Platforms like YouTube and Instagram regularly have paid ads featuring fake AI endorsements.
 
 There are also other famous scams like **(text-colour:orange)[rug pulls]**, where project creators suddenly withdraw all the money or liquidity locked in a project, causing the token’s price to crash and leaving investors unable to sell.
 
@@ -1310,6 +1338,8 @@ Reputation increases for caution. You skip the hype and report the post.
 Later, news confirms it was a deepfake campaign using AI-generated faces to steal funds from excited investors.
 
 You remind yourself that real CBDCs and regulated projects never require sending crypto to random wallets for “verification.” You saved your funds and helped others stay safe.
+
+Many presale scams use fake government domains, slightly misspelled URLs, and clone websites of official agencies. Platforms like YouTube and Instagram regularly have paid ads featuring fake AI endorsements.
 
 There are also other famous scams like **(text-colour:orange)[rug pulls]**, where project creators suddenly withdraw all the money or liquidity locked in a project, causing the token’s price to crash and leaving investors unable to sell.
 
@@ -1370,9 +1400,11 @@ Reputation +6. Balance remains the same.
 
 Reputation increases for promoting fairness.
 
-You vote for a transparent token launch—no pre-mine, capped purchases per wallet, and clear vesting for contributors.
+You vote for a transparent token launch—no pre-mine, capped purchases per wallet, and clear vesting for contributors. A fair launch encourages capital participation. An airdrop encourages early product usage. Both can be fair but serve different goals. Airdrops may require sybil resistance to avoid farming.
 
-This approach earns community trust and avoids the red flags seen in scam presales. Your project gains early supporters who appreciate the open model, proving that blockchain fairness starts at distribution, not just technology.
+This approach earns community trust and avoids the red flags seen in scam presales. Still, DAOs must watch for governance capture by large holders. 
+
+Your project gains early supporters who appreciate the open model, proving that blockchain fairness starts at distribution, not just technology. 
 
 ---
 
@@ -1400,9 +1432,11 @@ The launch gets quick hype but also heavy criticism on social media. Transparenc
 
 You learn the hard way that even technically sound blockchains can lose trust if the economics are centralized, echoing debates you’ve heard around CBDCs and financial control.
 
+For the other 2 choices, a fair launch encourages capital participation and an airdrop encourages early product usage. Both can be fair but serve different goals. Airdrops may require sybil resistance to avoid farming. 
+
 ---
 
-[[Next-&gt;Scene11]]</tw-passagedata><tw-passagedata pid="56" name="AirdropLaunch" tags="" position="1350,925" size="100,100">(set: $point to $point + 3)
+[[Next-&gt;Scene11]]</tw-passagedata><tw-passagedata pid="56" name="AirdropLaunch" tags="" position="1350,925" size="100,100">(set: $point to $point + 4)
 &lt;div id=&quot;statusbar&quot;&gt;Balance: $balance | Reputation Point: $point&lt;/div&gt;
 (set: $answer1 to (prompt: &quot;Your choice: (text-colour:orange)[Airdrop to real users]
 Enter your confidence level of choosing that option
@@ -1416,13 +1450,13 @@ Your reason of choosing that option: (print: $answer2)
 
 Airdrop Launch
 
-Reputation +3. Balance remains the same.
+Reputation +4. Balance remains the same.
 
 ---
 
 You help draft fair airdrop criteria: users who made real purchases or engaged with the app early get tokens automatically.
 
-No payments, no presales, just proof of real participation.
+No payments, no presales, just proof of real participation. A fair launch encourages capital participation. An airdrop encourages early product usage. Both can be fair but serve different goals. Airdrops may require sybil resistance to avoid farming.
 
 The campaign trends under #CoffeeTokenFairDrop, and your inbox floods with feedback from café owners who feel genuinely included.
 
@@ -1509,7 +1543,8 @@ Do you remember which role you chose at the beginning? Is there any changes? You
 
 #End
 
-###Thank you for your participation!</tw-passagedata><tw-passagedata pid="65" name="Scene11" tags="" position="1225,1050" size="100,100">&lt;div id=&quot;statusbar&quot;&gt;Balance: $balance | Reputation Point: $point&lt;/div&gt;
+###Thank you for your participation!
+</tw-passagedata><tw-passagedata pid="65" name="Scene11" tags="" position="1225,1050" size="100,100">&lt;div id=&quot;statusbar&quot;&gt;Balance: $balance | Reputation Point: $point&lt;/div&gt;
 
 Scene 11
 
